@@ -8,6 +8,17 @@
   margin: auto;
 }
 
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #e9e9e9 url("../img/NavBarBg.jpg") no-repeat center;
+  background-size: cover;
+  padding-bottom: 14px;
+  display: block;
+}
+
 .navbar-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,15 +58,16 @@ body {
 .hero {
   background: #e9e9e9 url("../img/image_here.jpg") no-repeat center;
   background-size: cover;
-  margin-top: -70px;
+  margin-top: 80px;
   padding-bottom: 640px;
+  display: block;
 }
 
 .hero .first-span {
   margin-right: 25px;
   padding-top: 235px;
-  text-align: right;
-  
+  max-width: 475px;
+  float: right;
 }
 
 .hero .first-span .main-span {
@@ -70,5 +82,27 @@ body {
 .hero .first-span .second-span {
   display: block;
   text-align: left;
+  padding-bottom: 40px;
+}
+
+.hero .first-span .contact-us {
+  width: 180px;
+  height: 55px;
+  display: block;
+  margin-left: 5px;
+  padding: 23px 46px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #e9e9e9;
+  background: #10c9c3;
+  outline: none;
+  border: none;
+}
+
+.hero2 {
+  height: 420px;
+  display: block;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
