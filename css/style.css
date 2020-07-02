@@ -14,21 +14,25 @@
   top: 0;
   width: 100%;
   background: #e9e9e9 url("../img/NavBarBg.jpg") no-repeat center;
-  background-size: cover;
+  -webkit-background-size: cover;
+          background-size: cover;
   padding-bottom: 14px;
   display: block;
 }
 
 .navbar-wrap {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   min-height: 25px;
   margin-top: 40px;
   -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
@@ -40,8 +44,9 @@
   font-weight: 500;
   color: #191919;
   background-color: #e9e9e9;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
   outline: none;
 }
 
@@ -57,7 +62,8 @@ body {
 
 .hero {
   background: #e9e9e9 url("../img/image_here.jpg") no-repeat center;
-  background-size: cover;
+  -webkit-background-size: cover;
+          background-size: cover;
   margin-top: 80px;
   padding-bottom: 640px;
   display: block;
@@ -129,8 +135,12 @@ body {
 
 .hero3 {
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f8f9f9), color-stop(50%, #e9e9e9));
+  background: -webkit-linear-gradient(left, #f8f9f9 50%, #e9e9e9 50%);
+  background: -o-linear-gradient(left, #f8f9f9 50%, #e9e9e9 50%);
   background: linear-gradient(to right, #f8f9f9 50%, #e9e9e9 50%);
-  height: 570px;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 530px;
 }
 
 .hero3 .design-raport {
@@ -175,4 +185,25 @@ body {
   color: #e9e9e9;
   width: 300px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.hero4 {
+  height: 240px;
+  background: #10c9c3;
+  color: #ffffff;
+}
+
+.hero4 .texts {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.hero4 .texts .text_img {
+  display: block;
+}
+
+.hero4 .texts .text {
+  display: block;
+  padding-left: 10px;
+}
