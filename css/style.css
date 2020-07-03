@@ -126,15 +126,28 @@ body {
 
 @media (max-width: 1186px) {
   .hero {
-    width: 1186px;
+    max-width: 1186px;
+  }
+}
+
+@media (max-width: 950px) {
+  .hero {
+    max-width: 950px;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero {
+    max-width: 540px;
   }
 }
 
 .hero2 {
   height: 420px;
-  display: block;
+}
+
+.hero2 .about-us {
   max-width: 620px;
-  margin: auto;
 }
 
 .hero2 .about-us .about-header {
