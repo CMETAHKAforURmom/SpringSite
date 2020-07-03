@@ -106,6 +106,7 @@
   border-right: 1px solid rgba(16, 201, 195, 0.1);
   border-left: 1px solid rgba(16, 201, 195, 0.1);
   height: 80px;
+  outline: none;
   width: 70px;
 }
 
@@ -131,18 +132,15 @@
   position: fixed;
   left: 0;
   top: 120px;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
   -webkit-transform: translateY(-130%);
       -ms-transform: translateY(-130%);
           transform: translateY(-130%);
-}
-
-.menu-btns:enabled {
-  -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .menu-btns .menu-nav {
