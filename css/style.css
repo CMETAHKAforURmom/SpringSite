@@ -14,6 +14,18 @@
   }
 }
 
+@media (max-width: 950px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
 .navbar {
   position: fixed;
   left: 0;
