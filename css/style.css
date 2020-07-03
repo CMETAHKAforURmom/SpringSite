@@ -22,7 +22,13 @@
 
 @media (max-width: 540px) {
   .container {
-    max-width: 480px;
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 470px) {
+  .container {
+    max-width: 350px;
   }
 }
 
@@ -139,6 +145,12 @@ body {
 @media (max-width: 540px) {
   .hero {
     max-width: 540px;
+  }
+}
+
+@media (max-width: 470px) {
+  .hero {
+    padding-top: 0;
   }
 }
 
