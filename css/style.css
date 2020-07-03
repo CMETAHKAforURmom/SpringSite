@@ -248,6 +248,14 @@ body {
 
 .hero2 {
   height: 420px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero2 .about-us {
@@ -280,13 +288,14 @@ body {
   background: linear-gradient(to right, #f8f9f9 50%, #e9e9e9 50%);
   -webkit-background-size: cover;
           background-size: cover;
+  width: 100%;
   height: 530px;
 }
 
 .hero3 .design-raport {
   display: block;
   margin-top: 165px;
-  min-width: 50%;
+  width: 50%;
   height: 570px;
   float: left;
 }
@@ -309,12 +318,12 @@ body {
 .hero3 .design-raport .bar {
   display: block;
   margin-top: 20px;
-  width: 500px;
+  width: 70%;
 }
 
 .hero3 .ur-photo {
   display: block;
-  min-width: 50%;
+  width: 50%;
   height: 570px;
   float: right;
 }
