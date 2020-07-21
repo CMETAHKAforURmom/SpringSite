@@ -360,6 +360,12 @@ body {
   font-weight: bold;
 }
 
+@media (max-width: 475px) {
+  .hero4 .texts {
+    display: block;
+  }
+}
+
 @media (max-width: 1190px) {
   .hero4 .texts {
     padding-top: 50px;
