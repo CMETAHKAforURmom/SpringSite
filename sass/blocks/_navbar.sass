@@ -1,7 +1,7 @@
 .navbar
-    position: fixed;
-    left: 0;
-    top: 0;
+    position: fixed
+    left: 0
+    top: 0
     width: 100%
     background: $btn-nav-bg-color
     padding-bottom: 14px
@@ -26,7 +26,6 @@
      color: $btn-nav-hover
      outline: none
 .main-nav
-    // visibility: hidden
     display: flex
     flex-direction: column
     align-items: center
@@ -50,24 +49,32 @@
     background-color: $btn-nav-hover
     display: flex
     width: 100%
-    justify-content: center
+    visibility: hidden
+    justify-content: space-around
     position: fixed
     left: 0
     top: 120px
-    transition: 1s
-    transform: translateY(-130%)
+    opacity: 0
+    transition: visibility ease .6s, opacity ease 1s
 
     .menu-nav
-        display: flex
-        display: flex
-        flex-direction: column
+        display: block
         .menu-link
-            display: flex
-            justify-content: center
+            display: inline-block
+            padding-right: 100px
             text-decoration: none
             color: $btn-nav-bg-color
+            font-weight: bold
             padding-bottom: 10px
-            margin-top: 40px 
+            margin-top: 10px 
+        .last
+            padding-right: 0
+        @media ( max-width: 1150px )
+            .menu-link
+                display: block
+                padding-right: 0
+            
+            
 
 
 
