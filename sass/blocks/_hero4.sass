@@ -2,12 +2,22 @@
     height: 240px
     background: $btn_nav_hover
     color: #ffffff
+        
     .texts
-        display: inline-flex
-
+        width: 100%
+        display: flex
+        justify-content: space-between
+        padding-top: 100px
         .text_img
-            display: block
+            display: inline-block
         
         .text
-            display: block
+            display: inline-block
             padding-left: 10px
+            .num
+                font-weight: bold
+
+    
+    @media ( max-width:  1190px)
+        .texts
+            padding-top: 50px
