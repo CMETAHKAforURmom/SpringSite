@@ -412,3 +412,7 @@ footer h3 {
   font-size: 15px;
   margin: 0;
 }
+
+.popup {
+  display: none;
+}

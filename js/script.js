@@ -3,6 +3,9 @@ var btns = document.getElementById("btns");
 var is_open = false;
 var logo = document.getElementById('logo');
 var t;
+var contact = document.getElementById('btn_contact');
+var contact_popup = document.getElementById('contact_us');
+var is_writing = false;
 function up(){
     var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
 	if(top > 0) {
@@ -26,3 +29,15 @@ btn_menu.addEventListener('click', function(){
 }, true);
 
 logo.onclick = up;
+
+contact.addEventListener('click', function(){
+
+    if(!is_writing){
+        contact_popup.style.display = "block";
+        is_writing = true;
+    }else{
+        
+    contact_popup.style.display = "none";
+    is_writing = false;
+    }
+}, true);
