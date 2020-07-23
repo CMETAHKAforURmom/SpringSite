@@ -1,6 +1,16 @@
 var btn_menu = document.getElementById("menu");
 var btns = document.getElementById("btns");
 var is_open = false;
+var logo = document.getElementById('logo');
+var t;
+function up(){
+    var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+	if(top > 0) {
+		window.scrollBy(0,-100);
+		t = setTimeout('up()',20);
+	} else clearTimeout(t);
+	return false;
+}
 btn_menu.addEventListener('click', function(){
     console.log("Click");
     if(is_open){
@@ -14,3 +24,5 @@ btn_menu.addEventListener('click', function(){
         btns.style.opacity = 1;
     }
 }, true);
+
+logo.onclick = up;

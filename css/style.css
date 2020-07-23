@@ -57,8 +57,7 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 25px;
-  margin-top: 40px;
+  margin-top: 15px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
@@ -105,7 +104,7 @@
   border: none;
   border-right: 1px solid rgba(16, 201, 195, 0.1);
   border-left: 1px solid rgba(16, 201, 195, 0.1);
-  height: 80px;
+  height: 50px;
   outline: none;
   width: 70px;
 }
@@ -131,7 +130,7 @@
           justify-content: space-around;
   position: fixed;
   left: 0;
-  top: 120px;
+  top: 70px;
   opacity: 0;
   -webkit-transition: visibility ease .6s, opacity ease 1s;
   -o-transition: visibility ease .6s, opacity ease 1s;
@@ -363,6 +362,7 @@ body {
 @media (max-width: 475px) {
   .hero4 .texts {
     display: block;
+    padding-bottom: 30px;
   }
 }
 
@@ -373,11 +373,9 @@ body {
 }
 
 .hero5 {
-  height: 635px;
   width: 100%;
   display: block;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .hero5 .photos_line {
@@ -385,8 +383,6 @@ body {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  padding: 0;
-  margin-bottom: 0;
 }
 
 .hero5 .photos_line .some_img {
@@ -400,7 +396,6 @@ body {
   height: 50px;
   color: #fff;
   outline: none;
-  padding-bottom: 0;
 }
 
 footer {
@@ -408,11 +403,12 @@ footer {
   background-color: grey;
   margin-top: 10px;
   text-align: center;
-  margin-bottom: 0;
+  bottom: 0;
 }
 
 footer h3 {
   padding: 20px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
+  margin: 0;
 }
