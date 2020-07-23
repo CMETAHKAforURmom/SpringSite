@@ -172,6 +172,7 @@ body {
   -webkit-background-size: cover;
           background-size: cover;
   padding-top: 80px;
+  margin-bottom: 0;
   height: 640px;
   display: block;
 }
@@ -415,4 +416,22 @@ footer h3 {
 
 .popup {
   display: none;
+  text-align: center;
+  background-color: #e9e9e9;
+  margin-top: -23px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.popup p {
+  font-size: 25px;
+  color: #787878;
+}
+
+.popup input {
+  width: 100%;
+  outline: none;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 40px;
 }
