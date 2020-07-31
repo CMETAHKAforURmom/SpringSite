@@ -40,7 +40,8 @@
 
 
     </header> -->
-    <div class="fixed-top row bg-dark d-flex align-items-center pt-3  ">
+    
+    <header class="fixed-top row bg-dark d-flex align-items-center pt-3  ">
     <img src="./img/logo.png" alt="Logo" class="mx-5 pb-3"> 
     <div class="col">
     <ul class="align-bottom nav nav-tabs nav-fill ">
@@ -67,17 +68,17 @@
         </li>
       </ul>
     </div>
-</div>
-    <div class="hero">
-        <div class="container">
-            <div class="first-span">
-                <span class="main-span">Мы разрабатываем дизайн и продукт</span>
-                <span class="second-span">Мы разрабатываем новую дизайнерскую студию в Россиию. У нас больше 20 лет комбинированного опыта и поэтому мы шарим за дизайн веб-сайтов и мобильных приложений.</span>
-                <button class="contact-us" id="btn_contact" >Написать</button>
-            </div>
+</header>>
+
+
+    <div class="container-fluid bg-light my-5">
+        <div class="container offset-md-6 col-md-6 col-12 py-5">
+                <h1 class="col-10  my-3">Мы разрабатываем дизайн и продукт</h1>
+                <h4 class="col-12 my-3">Мы разрабатываем новую дизайнерскую студию в Россиию. У нас больше 20 лет комбинированного опыта и поэтому мы шарим за дизайн веб-сайтов и мобильных приложений.</h4>
+                <button class="col-3 py-3 ml-3 btn btn-primary my-3" id="btn_contact" >Написать</button>
         </div>
     </div>
-    <div class = "popup" id="contact_us">
+    <div class = "d-none" id="contact_us">
         <form>
             <h1>Оставьте заявку и мы свяжемся с вами в ближайшее время</h1>
             <p>Ваше имя</p>
@@ -86,16 +87,14 @@
             <input type="text" class="mail" placeholder="SomeBody@once.toldMe">
         </form>
     </div>
-        <div class="hero2">
-            <div class="container">
-                <div class="about-us">
-                    <span class="about-header">Немножечко о нас</span>
-                    <span class="about-description">На самом деле, никаких 20ти лет нет, я просто пишу свой первый сайт, и нет никаких нас, есть только я - Брежнев Вадим</span>
-                    <p class="img-center"><img src="./img/signature.jpg" alt="Роспись какого то левого чувака из макета"></p>
-                </div>
+    
+            <div class="container row justify-content-center offset-md-1 py-5">
+                
+                    <h2 class="my-3">Немножечко о нас</h2>
+                    <span class="my-3">На самом деле, никаких 20ти лет нет, я просто пишу свой первый сайт, и нет никаких нас, есть только я - Брежнев Вадим</span>
+                    <img src="./img/signature.jpg" alt="Роспись какого то левого чувака из макета" class="my-3">
             </div>
-        </div>
-        <div class="hero3">
+    
             <div class="container">
                 <div class="design-raport">
                     <span class = "main-span">Итак, чо я могу то</span>
@@ -118,7 +117,7 @@
                 </div>
             </div>
                 
-        </div>
+        
         <div class="hero4">
             <div class="container">
                 <div class="texts">
@@ -185,6 +184,5 @@
         </footer>
     
     <!-- /.header -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
